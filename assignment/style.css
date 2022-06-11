@@ -7,7 +7,6 @@ body {
 
 header {
     background-color: #D9B310;
-    
 }
 
 body {
@@ -23,25 +22,48 @@ footer {
     background-color: #D9B310
 }
 
+
 /* Align the h1 containing your name in the center of the header*/
 h1 {
     text-align: center;
 }
+
 
 /* Make your p tag a different color and italic */
 p {
     font-style: italic;
 }
 
+
 /* Put a border around your image */
 img {
     border: 5px solid #D9B310;
 }
+/* Aligned image to the center to match the style of the text */
+div.image {
+    text-align: center;
+}
+
+
 /* Change the font-family of your list */
 h1 {font-family: Arial, Helvetica, sans-serif;}
 h2 {font-family: Arial, Helvetica, sans-serif}
 ul {font-family: Arial, Helvetica, sans-serif;}
 
-* {
+
+
+/* Aligned text to the center and flush to the left for readability */
+div.list {
     text-align: center;
 }
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Aligned footer text to the center */
+div.footer {
+    text-align: center;
+}
+
